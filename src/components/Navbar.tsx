@@ -93,7 +93,7 @@ const Navbar = ({ activePage, navigateTo, scrolled }) => {
               <button
                 key={link.id}
                 onClick={() => handleNavClick(link.id)}
-                className={`block w-full text-left px-3 py-3.5 rounded-md text-base font-medium ${
+                className={`block w-full text-left px-3 py-4 rounded-md text-base font-medium ${
                   activePage === link.id 
                     ? 'text-blue-500 bg-gray-900' 
                     : 'text-gray-300 hover:text-white hover:bg-gray-800'

@@ -101,7 +101,6 @@ const ProductPage = () => {
             <div className="mb-24 text-left max-w-6xl mx-auto">
                 <div className="flex flex-col md:flex-row items-end justify-between mb-8 border-b border-gray-800 pb-4">
                     <h3 className="text-3xl font-bold">Advanced Management Suite</h3>
-                    <p className="text-blue-400 text-sm">New Features Deployed</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
